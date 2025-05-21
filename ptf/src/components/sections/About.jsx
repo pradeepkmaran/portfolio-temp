@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FaPython, FaDatabase, FaLaptopCode } from 'react-icons/fa'
-import { SiTensorflow, SiPytorch, SiAmazonaws } from 'react-icons/si'
+import { SiTensorflow, SiPytorch, SiAmazonwebservices } from 'react-icons/si'
 
 const About = () => {
   return (
@@ -62,7 +62,7 @@ const About = () => {
               </div>
               
               <div className="bg-secondary rounded-lg p-4 flex items-start space-x-3">
-                <SiAmazonaws className="text-tertiary text-3xl mt-1" />
+                <SiAmazonwebservices className="text-tertiary text-3xl mt-1" />
                 <div>
                   <h4 className="font-bold">AWS & Firebase</h4>
                   <p className="text-textLight text-sm">Cloud infrastructure and deployment</p>
